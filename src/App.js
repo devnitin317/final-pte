@@ -49,7 +49,8 @@ function App() {
   const [paymentVerified, setPaymentVerified] = useState(false);
   const [userData, setUserData] = useState({ email: "" });
   // const baseUrl = "http://localhost:5001/";
-  const baseUrl = "https://pro-backend-eight.vercel.app/"
+  // const baseUrl = "https://pro-backend-eight.vercel.app/"
+  const baseUrl = "https://final-pte-backend.vercel.app/"
 
   const dispatch = useDispatch();
   useEffect(() => {
